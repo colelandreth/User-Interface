@@ -54,11 +54,11 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans';
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Amatic SC', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -83,8 +83,14 @@ header {
 
 nav a {
 	text-decoration: none;
-	color: lightgrey;
+	color: darkgrey;
 	padding-left: 60px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+}
+
+a:hover{
+	color: lightgrey;
 }
 
 img.logo {
@@ -95,6 +101,10 @@ img.logo {
 
 h1 {
 	width: 500px;
+}
+
+h2 {
+	font-size: 35px;
 }
 
 .inno{
@@ -114,6 +124,12 @@ button {
 	background-color: white;
 	padding-top: 1px;
 	border: 2px solid black;
+}
+
+button:hover {
+	color: white;
+	background-color: black;
+	border: 2px solid white;
 }
 
 .code{
@@ -168,6 +184,10 @@ button {
 
 .email {
 	padding-top: 2%;
+}
+
+.email:hover {
+	color: lightgray;
 }
 
 .copyright{
