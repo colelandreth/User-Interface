@@ -101,6 +101,7 @@ img.logo {
 
 h1 {
 	width: 500px;
+	margin-bottom: -100px;
 }
 
 h2 {
@@ -112,8 +113,8 @@ h2 {
 	font-size: 6em;
 	padding-top: 5%;
 	text-align: center;
-	display: flex;
 	padding-left: 15%;
+	display: inline-block;
 }
 
 button {
@@ -135,9 +136,11 @@ button:hover {
 .code{
 	width: auto;
 	height: auto;
-	display: inline-block;
+	/* display: inline-block; */
 	padding-left: 8%;
 	padding-bottom: 2%;
+	margin-top: -1000px;
+	margin-left: 500px;
 }
 
 .features {
